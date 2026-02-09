@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    font-family: Amazon Ember, Arial, sans-serif;
+    box-sizing: border-box;
+}
+/* while creating a project we must set above properties to make it a good practice */
+
+.navbar{
+    height: 62px;
+    background-color:#0f1111;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+}
+
+
+/* LOGO 1 */
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image:url("amazon_logo.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 50px;
+    width:100%;
+}
+
+.border:hover{
+    border: 1.7px solid whitesmoke;
+} 
+
+
+/* LOGO 2 */
+
+.add-first{
+    color: #ccc;
+    font-weight: lighter;
+    margin-left: 15px;
+    font-size: 0.7rem;
+
+}
+
+.add-second{
+    font-size: 1rem;
+    font-weight:bold;
+}
+
+.add-icon{
+    display: flex;
+    align-items:center;
+
+}
+
+.nav-adress{
+    padding: 5px;
+    margin-left: 20px;
+}
+
+/* LOGO 3 */
+
+.nav-search{
+    display: flex;
+    background-color:pink;
+    width: 900px;
+    height: 40px;
+    border-radius:4px;
+    margin-left: 20px;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    border-radius: 4px 0 0 4px;
+    text-align:center;
+    border: none;
+    width:60px;
+}
+
+.search-input{
+    width: 875px;
+    font-size:0.9rem;
+    border: none;
+}
+
+.search-icon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.2rem;
+    color:black;
+    background-color:rgb(244, 240, 9);
+    border-radius: 0 4px 4px 0;
+}
+
+
+/* LOGO 4 and 5 */
+
+.nav-signin{
+    margin-left:30px;
+}
+
+span{
+    font-size: 0.8rem;
+}
+
+.nav-second{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* LOGO 6 */
+
+.nav-cart{
+    margin-left: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+/* we can combine two selector like shown below */
+.nav-cart i{
+    font-size: 2.3rem;
+}
+
+/* PANEL */
+
+.panel{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    background-color:#222f3d;
+    color: white;
+    align-items: center;
+}
+
+.in-panel{
+    margin-left: 6px;
+    display: flex;
+    width: 70%;
+    font-size: 0.9rem;
+}
+
+.in-panel p{
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.nav-all{
+    font-size: 1rem;
+    margin-left:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: dark;
+    padding: 5px;
+}
+
+/* MAIN SCREEN */
+
+.main-screen{
+    height: 300px;
+    width: 100%;
+    background-image: url("toys\ main\ screen.jpg");
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.mainscreen-message{
+    background-color:rgba(255, 255, 255, 0.849);
+    margin: 0 0 30px 0;
+    padding:5px;
+    width: 80%;
+}
+
+.mainscreen-message p{
+    font-size: 0.95rem;
+}
+
+.mainscreen-message a{
+    color: rgb(24, 150, 229);
+}
+
+
+/* Shopping section */
+
+.shopping-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(203, 243, 220) ;
+    flex-wrap: wrap;
+     
+}
+
+.box{
+    height: 400px;
+    width:23%;
+    background-color:white;  
+}
+
+/* BOX 1 */
+h2{
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.img-game{
+    background-image: url("gaming pc.jpg");
+    background-size:cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+}
+
+.box1 p{
+    color:blue;
+    font-size: 0.9rem;
+    font-weight: 100;
+    margin-top: 5px;
+}
+
+.box1-content{
+   margin:10px;
+}
+
+/* BOX2 */
+
+.img-Care{
+    background-image: url("box2_image.jpg");
+    background-position:center;
+    background-size: cover;
+    height: 300px;
+    width:100%;
+}
+
+.box2-content{
+    margin: 10px;
+}
+
+.box2 p{
+    color:blue;
+    font-size: 0.9rem;
+    font-weight: 100;
+    margin-top: 5px;
+
+}
+
+/* BOX3 */
+
+.img-Fashion{
+    background-image: url("box8_image.jpg");
+    background-position:center;
+    background-size: cover;
+    height: 300px;
+    width:100%;
+}
+
+.box3-content{
+    margin: 10px;
+}
+
+.box3 p{
+    color:blue;
+    font-size: 0.9rem;
+    font-weight: 100;
+    margin-top: 5px;
+
+}
+
+/* BOX 4 */
+
+.img-Elect{
+    background-image: url("box4_image.jpg");
+    background-position:center;
+    background-size: cover;
+    height: 300px;
+    width:100%;
+}
+
+.box4 p{
+    color:blue;
+    font-size: 0.9rem;
+    font-weight: 100;
+    margin-top: 5px;
+
+}
+.box4-content{
+    margin: 10px;
+}
+
+/* BOX 5 */
+
+.img-beauty{
+    background-image: url("box5_image.jpg");
+    background-position:center;
+    background-size: cover;
+    height: 300px;
+    width:100%;
+}
+
+.box5 p{
+    color:blue;
+    font-size: 0.9rem;
+    font-weight: 100;
+    margin-top: 5px;
+
+}
+.box5-content{
+    margin: 10px;
+}
+
+
+/* BOX 6 */
+.img-furniture{
+    background-image: url("box3_image.jpg");
+    background-position:center;
+    background-size: cover;
+    height: 300px;
+    width:100%;
+}
+
+.box6 p{
+    color:blue;
+    font-size: 0.9rem;
+    font-weight: 100;
+    margin-top: 5px;
+
+}
+.box6-content{
+    margin: 10px;
+}
+
+
+/* BOX 7 */
+
+.img-clothes{
+    background-image: url("box1_image.jpg");
+    background-position:center;
+    background-size: cover;
+    height: 300px;
+    width:100%;
+}
+
+.box7 p{
+    color:blue;
+    font-size: 0.9rem;
+    font-weight: 100;
+    margin-top: 5px;
+
+}
+.box7-content{
+    margin: 10px;
+}
+
+/* BOX 8 */
+
+.img-pet{
+    background-image: url("box6_image.jpg");
+    background-position:center;
+    background-size: cover;
+    height: 300px;
+    width:100%;
+}
+
+.box8 p{
+    color:blue;
+    font-size: 0.9rem;
+    font-weight: 100;
+    margin-top: 5px;
+
+}
+.box8-content{
+    margin: 10px;
+}
+
+/* Footerpanel1 */
+
+.footerpanel1{
+    background-color: #37475a;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    height: 50px;
+}
+
+.backtotop{
+    margin:10px;
+    font-size: 0.8rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* footerpanel2 */
+
+.footerpanel2{
+    background-color: #222f3d;
+    color:white;
+    display:flex;
+    height: 400px;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin:10px;  
+}
+
+ul a{
+    display: block;
+    font-size:0.9rem;
+    margin: 8px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* footerpanel3 */
+
+
+.footerpanel3{
+    background-color: #222f3d;
+    color:white;
+    display:flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    border-top:0.5px solid white;
+}
+
+.logo{
+    background-image:url(amazon_logo.png);
+    height: 50px;
+    width: 100px;
+}
